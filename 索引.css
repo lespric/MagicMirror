@@ -17,7 +17,7 @@ header {
     width: 5.9em;
     height: 5.7em;
 
-    background: url(../task3-magic/img/back.png) no-repeat;
+    background: url(../MagicMirror/img/back.png) no-repeat;
     background-size: cover;
 }
 
@@ -31,7 +31,7 @@ main {
     width: 19.2em;
     height: 7.2em;
 
-    background: url(../task3-magic/img/logo.png) no-repeat;
+    background: url(../MagicMirror/img/logo.png) no-repeat;
     background-size: cover;
 }
 
@@ -56,12 +56,12 @@ footer .icon {
 }
 
 .online .icon {
-    background: url(../task3-magic/img/online.png) no-repeat;
+    background: url(../MagicMirror/img/online.png) no-repeat;
     background-size: cover;
 }
 
 .user .icon {
-    background: url(../task3-magic/img/name.png) no-repeat;
+    background: url(../MagicMirror/img/name.png) no-repeat;
     background-size: cover;
 }
 
