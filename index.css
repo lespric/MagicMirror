@@ -1,0 +1,120 @@
+@media all and (orientation: portrait) {
+  @media (min-width: 980px) {
+    html {
+      font-size: 32px;
+    }
+  } /* 竖屏电脑 */
+  @media (min-width: 768px) and (max-width: 979px) {
+    html {
+      font-size: 24px;
+    }
+  } /* 竖屏平板 */
+  @media (max-width: 767px) {
+    html {
+      font-size: 16px;
+    }
+  }
+}
+
+@media all and (orientation: landscape) {
+  @media (min-width: 824px) {
+    html {
+      font-size: 32px;
+    }
+  }
+  @media (max-width: 823px) {
+    html {
+      font-size: 16px;
+    }
+  }
+}
+
+body {
+  margin: 0 0.8em;
+  padding: 0;
+
+  font-size: 0.625rem;
+
+  background: #68cdd5;
+  color: #ffffff;
+}
+
+header .back {
+  margin: 1em 0.8em;
+  margin-bottom: 0;
+
+  width: 2.8em;
+  height: 2.8em;
+
+  background: url(../MagicMirror/Img/back.png) no-repeat;
+  background-size: cover;
+}
+
+main {
+  margin-top: 2em;
+}
+
+.logo {
+  margin: 0 auto;
+
+  width: 9.6em;
+  height: 3.6em;
+
+  background: url(../MagicMirror/Img/logo.png) no-repeat;
+  background-size: cover;
+}
+
+main .font {
+  margin: 4em 11%;
+  margin-bottom: 0;
+
+  font: 1.4em/2em "Hiragino Sans GB", "Microsoft YaHei", san-serif;
+}
+
+footer {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+
+  margin: 8em 15%;
+  margin-bottom: 0;
+}
+
+footer .icon {
+  margin: 0 auto;
+
+  width: 4.2em;
+  height: 4.2em;
+}
+
+footer .font {
+  text-align: center;
+
+  font: 1.2em/1.5em SimHei, san-serif;
+}
+
+.online .icon {
+  background: url(../MagicMirror/Img/online.png) no-repeat;
+  background-size: cover;
+}
+
+.user .icon {
+  background: url(../MagicMirror/Img/user.png) no-repeat;
+  background-size: cover;
+}
+
+@media all and (orientation: landscape) {
+  main {
+    margin-top: 1em;
+  }
+
+  main .font {
+    margin: 2em 11%;
+    margin-bottom: 0;
+  }
+
+  footer {
+    margin: 4em 15%;
+    margin-bottom: 0;
+  }
+}
