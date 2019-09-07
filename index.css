@@ -39,9 +39,12 @@ body {
   color: #ffffff;
 }
 
+header {
+  padding: 0 2.5%;
+}
+
 header .back {
-  margin: 1em 0.8em;
-  margin-bottom: 0;
+  margin-top: 1em;
 
   width: 2.8em;
   height: 2.8em;
@@ -52,6 +55,7 @@ header .back {
 
 main {
   margin-top: 2em;
+  padding: 0 11%;
 }
 
 .logo {
@@ -65,7 +69,7 @@ main {
 }
 
 main .font {
-  margin: 4em 11%;
+  margin-top: 4em; 
   margin-bottom: 0;
 
   font: 1.4em/2em "Hiragino Sans GB", "Microsoft YaHei", san-serif;
@@ -76,8 +80,8 @@ footer {
   display: flex;
   justify-content: space-between;
 
-  margin: 8em 15%;
-  margin-bottom: 0;
+  margin-top: 8em;
+  padding: 0 15%;
 }
 
 footer .icon {
@@ -89,6 +93,7 @@ footer .icon {
 
 footer .font {
   text-align: center;
+  margin-bottom: 0;
 
   font: 1.2em/1.5em SimHei, san-serif;
 }
@@ -109,12 +114,10 @@ footer .font {
   }
 
   main .font {
-    margin: 2em 11%;
-    margin-bottom: 0;
+    margin-top: 2em;
   }
 
   footer {
-    margin: 4em 15%;
-    margin-bottom: 0;
+    margin-top: 4em;
   }
 } /* 横屏适配 */
