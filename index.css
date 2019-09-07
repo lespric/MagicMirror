@@ -13,21 +13,21 @@
     html {
       font-size: 16px;
     }
-  }
+  } /* 竖屏手机 */
 }
 
 @media all and (orientation: landscape) {
-  @media (min-width: 824px) {
+  @media (min-width: 1024px) {
     html {
       font-size: 32px;
     }
-  }
-  @media (max-width: 823px) {
+  } /*横屏网页 */ 
+  @media (max-width: 1023px) {
     html {
       font-size: 16px;
     }
   }
-}
+} /* 横屏手机 */
 
 body {
   margin: 0 0.8em;
@@ -117,4 +117,4 @@ footer .font {
     margin: 4em 15%;
     margin-bottom: 0;
   }
-}
+} /* 横屏适配 */
