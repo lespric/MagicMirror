@@ -30,10 +30,10 @@
 } /* 横屏手机 */
 
 body {
-  margin: 0 0.8em;
+  margin: 0 .8em;
   padding: 0;
 
-  font-size: 0.625rem;
+  font-size: .625rem;
 
   background: #68cdd5;
   color: #ffffff;
@@ -43,7 +43,7 @@ header {
   padding: 0 2.5%;
 }
 
-header .back {
+.back {
   margin-top: 1em;
 
   width: 2.8em;
@@ -84,7 +84,7 @@ footer {
   padding: 0 15%;
 }
 
-footer .icon {
+.icon {
   margin: 0 auto;
 
   width: 4.2em;
