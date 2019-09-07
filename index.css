@@ -21,7 +21,7 @@
     html {
       font-size: 2rem;
     }
-  } /*横屏网页 */ 
+  } /*横屏网页 */
   @media (max-width: 1023px) {
     html {
       font-size: 1rem;
@@ -30,10 +30,10 @@
 } /* 横屏手机 */
 
 body {
-  margin: 0 .8em;
+  margin: 0 0.8em;
   padding: 0;
 
-  font-size: .625rem;
+  font-size: 0.625rem;
 
   background: #68cdd5;
   color: #ffffff;
@@ -49,7 +49,7 @@ header {
   width: 2.8em;
   height: 2.8em;
 
-  background: url(../MagicMirror/Img/back.png) no-repeat;
+  background: url(../MagicMirror/Img/back@2x.png) no-repeat;
   background-size: cover;
 }
 
@@ -64,12 +64,12 @@ main {
   width: 9.6em;
   height: 3.6em;
 
-  background: url(../MagicMirror/Img/logo.png) no-repeat;
+  background: url(../MagicMirror/Img/logo@2x.png) no-repeat;
   background-size: cover;
 }
 
 main .font {
-  margin-top: 4em; 
+  margin-top: 4em;
   margin-bottom: 0;
 
   font: 1.4em/2em "Hiragino Sans GB", "Microsoft YaHei", san-serif;
@@ -99,12 +99,12 @@ footer .font {
 }
 
 .online .icon {
-  background: url(../MagicMirror/Img/online.png) no-repeat;
+  background: url(../MagicMirror/Img/online@2x.png) no-repeat;
   background-size: cover;
 }
 
 .user .icon {
-  background: url(../MagicMirror/Img/user.png) no-repeat;
+  background: url(../MagicMirror/Img/user@2x.png) no-repeat;
   background-size: cover;
 }
 
@@ -121,3 +121,18 @@ footer .font {
     margin-top: 4em;
   }
 } /* 横屏适配 */
+
+@media screen and (-webkit-device-pixel-ratio: 3) {
+  .back {
+    background: url(../MagicMirror/Img/back@3x.png) no-repeat;
+  }
+  .logo {
+    background: url(../MagicMirror/Img/logo@3x.png) no-repeat;
+  }
+  .online .icon {
+    background: url(../MagicMirror/Img/online@3x.png) no-repeat;
+  }
+  .user .icon {
+    background: url(../MagicMirror/Img/user@3x.png) no-repeat;
+  }
+}
