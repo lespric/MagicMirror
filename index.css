@@ -1,17 +1,17 @@
 @media all and (orientation: portrait) {
   @media (min-width: 980px) {
     html {
-      font-size: 32px;
+      font-size: 2rem;
     }
   } /* 竖屏电脑 */
   @media (min-width: 768px) and (max-width: 979px) {
     html {
-      font-size: 24px;
+      font-size: 1.5rem;
     }
   } /* 竖屏平板 */
   @media (max-width: 767px) {
     html {
-      font-size: 16px;
+      font-size: 1rem;
     }
   } /* 竖屏手机 */
 }
@@ -19,12 +19,12 @@
 @media all and (orientation: landscape) {
   @media (min-width: 1024px) {
     html {
-      font-size: 32px;
+      font-size: 2rem;
     }
   } /*横屏网页 */ 
   @media (max-width: 1023px) {
     html {
-      font-size: 16px;
+      font-size: 1rem;
     }
   }
 } /* 横屏手机 */
