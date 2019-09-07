@@ -125,14 +125,18 @@ footer .font {
 @media screen and (-webkit-device-pixel-ratio: 3) {
   .back {
     background: url(../MagicMirror/Img/back@3x.png) no-repeat;
+    background-size: cover;
   }
   .logo {
     background: url(../MagicMirror/Img/logo@3x.png) no-repeat;
+    background-size: cover;
   }
   .online .icon {
     background: url(../MagicMirror/Img/online@3x.png) no-repeat;
+    background-size: cover;
   }
   .user .icon {
     background: url(../MagicMirror/Img/user@3x.png) no-repeat;
+    background-size: cover;
   }
 } /* @3x适配 */
