@@ -12,9 +12,9 @@
 
 ## 三、成果展示
 
-* 竖屏效果
+* 竖屏效果  
 ![portrait](https://github.com/lespric/MagicMirror/blob/master/gif/portrair.gif)
-* 横屏效果
+* 横屏效果  
 ![landscape](https://github.com/lespric/MagicMirror/blob/master/gif/landscape.gif)
 
 ## 四、开发思路及深度思考
