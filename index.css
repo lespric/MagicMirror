@@ -135,4 +135,4 @@ footer .font {
   .user .icon {
     background: url(../MagicMirror/Img/user@3x.png) no-repeat;
   }
-}
+} /* @3x适配 */
